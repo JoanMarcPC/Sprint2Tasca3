@@ -1,0 +1,1748 @@
+{
+	"tables": {
+		"c16ff730-e243-4ce4-978f-1214dcbbeffe": {
+			"id": "c16ff730-e243-4ce4-978f-1214dcbbeffe",
+			"visible": true,
+			"name": "user",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "4d6d7ed9-6bee-43fa-b304-0ea976d9ae63",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "88d8aefb-a3c4-43f9-939f-f2a67ae01984",
+					"name": "email",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3ccaebaf-d032-4119-be7c-67c27bad3b00",
+					"name": "password",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "0173bd5f-ca64-407c-b933-878513d87b00",
+					"name": "nickname",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3af2a49a-74fa-40bb-9bcd-018e1b5a49ee",
+					"name": "birth_date",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "f9c4f4e4-774e-42d4-ac57-a4b9522f860c",
+					"name": "sexe",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "d1a048f5-724f-453d-bcf1-59e192c30747",
+					"name": "pais",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "60ac969d-6021-4e9b-a6e7-094dab020c38",
+					"name": "codi_postal",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "697348ad-2ac9-499b-8692-f957c3c74bca",
+					"name": "premium",
+					"datatype": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "44080862-b5df-48e5-8924-23a01fe74476",
+					"name": "Seguimientos",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "Seguimientos"
+				}
+			],
+			"relations": [
+				"b3cc9726-a2ec-486b-ab9e-d2d3d40670ee",
+				"18c1ce01-a6e0-45e4-b54b-a051ad226bcb",
+				"23917490-8205-4f17-bcb0-6e9f718c5c90"
+			],
+			"lines": [
+				"56a608c9-3475-4526-9287-f2f5e12ac826"
+			],
+			"keys": [
+				{
+					"id": "d8711cdc-4ee8-4598-8b42-499808bf166e",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "e50628e8-97ec-4f08-9575-a985f9527c5e",
+							"colid": "4d6d7ed9-6bee-43fa-b304-0ea976d9ae63"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"81b5b6ed-d181-4e37-b97a-090e8fea3550": {
+			"id": "81b5b6ed-d181-4e37-b97a-090e8fea3550",
+			"visible": true,
+			"name": "canco",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "702fa0df-8ee3-4f0a-b759-3fce9ac98527",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "7143a08c-f720-4a7d-96e3-9fe276228956",
+					"name": "titol",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "6279b315-e540-4e94-a7fd-d99ed7513c0d",
+					"name": "durada",
+					"datatype": "double",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "7ebc71e5-0bb7-4189-8362-7db8932ca88d",
+					"name": "num_reproduccions",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [
+				"7e062185-7d0d-4ccd-aa4d-d73483fbc439",
+				"79abdf4f-a059-4e3e-94d6-2eb9efc93299",
+				"56a778ff-e67d-4ef4-9d99-b321ba224cfe"
+			],
+			"lines": [
+				"1de799ad-37f5-48b6-9623-46e6627332b9"
+			],
+			"keys": [
+				{
+					"id": "c9fefc81-8994-4b86-adcd-b09710cb1cff",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "c3e1c96f-bc61-4cdc-a1a5-51cb3c49a3b5",
+							"colid": "702fa0df-8ee3-4f0a-b759-3fce9ac98527"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": ""
+		},
+		"8402ccb2-f7ea-4942-83e8-0e5c939ea522": {
+			"id": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+			"visible": true,
+			"name": "suscripcio",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "6dd5772a-afcf-4c32-9be6-ec239dc42170",
+					"name": "data_renovacio",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c8921ad3-44bc-40c9-acbe-a2cf30802ae3",
+					"name": "data_inici",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "daa8712e-009d-43e6-a088-f0aab4477a35",
+					"name": "dades_targeta",
+					"datatype": "ef861fbb-29b3-4e92-a091-a0f0bf2270a7",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b1f45a03-946f-4f02-b9a7-2718b2c9d900",
+					"name": "dades_paypal",
+					"datatype": "4d2f2d62-469e-4641-be5b-0000555e81e3",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ee211821-54ea-4360-a610-359d35e31eac",
+					"name": "modo_pago_predeterminado",
+					"datatype": "enum",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "[\"P\",\"T\"]",
+					"validate": ""
+				},
+				{
+					"id": "cfcf829c-6a1b-49d0-9b16-5c298a2f6255",
+					"name": "pagament",
+					"datatype": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"56a608c9-3475-4526-9287-f2f5e12ac826",
+				"abcd7368-7553-4418-ac22-24d86a655070",
+				"24c6538e-0ee8-4295-a2a7-1942d6230762",
+				"6105291e-097d-4d5b-9d11-ee6eb941a6f1"
+			],
+			"keys": [
+				{
+					"id": "a9515e36-a208-4b38-abbc-9169a65279a1",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"ef861fbb-29b3-4e92-a091-a0f0bf2270a7": {
+			"id": "ef861fbb-29b3-4e92-a091-a0f0bf2270a7",
+			"visible": true,
+			"name": "targeta",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "e9a8eb28-ad3c-4eb4-8040-599458b86a7c",
+					"name": "num",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8e5e9d87-0229-451d-bff1-8c322b3afd10",
+					"name": "caducitat",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "64843411-080e-43db-9c3c-41b7147ee06f",
+					"name": "codi",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"24c6538e-0ee8-4295-a2a7-1942d6230762",
+				"d93eca77-0a63-406e-80b5-b7a70e7d8f38"
+			],
+			"keys": [
+				{
+					"id": "88b9c96d-e5c4-461e-aaba-320d703f89c7",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"4d2f2d62-469e-4641-be5b-0000555e81e3": {
+			"id": "4d2f2d62-469e-4641-be5b-0000555e81e3",
+			"visible": true,
+			"name": "paypal",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "c776a41e-df8f-4c8b-8f19-6a9cb9998833",
+					"name": "user",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"abcd7368-7553-4418-ac22-24d86a655070",
+				"e14ac2ef-d09b-4155-b6df-6dcb5ac1460f"
+			],
+			"keys": [
+				{
+					"id": "d5a84c23-8966-4e41-9ec2-2e83a4254b26",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"bc68ab4b-c142-44d7-8a6c-acd30aba566b": {
+			"id": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+			"visible": true,
+			"name": "pagament",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "e5e756d3-6868-4e6d-a540-d5e3168c5ed7",
+					"name": "total",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ff1b0cb7-e6ac-4fc0-8458-edd008c9ad53",
+					"name": "data",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8fc0c6e2-6e0f-4497-ac85-e92487d51b73",
+					"name": "modo_pago",
+					"datatype": "enum",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "4bdff97e-84d3-409e-8820-c01dba156185",
+					"name": "paypal",
+					"datatype": "4d2f2d62-469e-4641-be5b-0000555e81e3",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3122deae-284a-44b8-9074-ddbd8893bec4",
+					"name": "targeta",
+					"datatype": "ef861fbb-29b3-4e92-a091-a0f0bf2270a7",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"6105291e-097d-4d5b-9d11-ee6eb941a6f1",
+				"29fc270f-6cc8-496b-8831-78fcc719784d",
+				"e14ac2ef-d09b-4155-b6df-6dcb5ac1460f",
+				"d93eca77-0a63-406e-80b5-b7a70e7d8f38"
+			],
+			"keys": [
+				{
+					"id": "a2faaf01-f54e-42d3-8b4c-7792d50c5f55",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"0cd4bbc1-a953-4f32-82bb-5fa2145e3b05": {
+			"id": "0cd4bbc1-a953-4f32-82bb-5fa2145e3b05",
+			"visible": true,
+			"name": "playlist",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f19b4b03-bccd-44a3-a8f3-c62247e12767",
+					"name": "user_creador",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "user"
+				},
+				{
+					"id": "89c1580f-09d6-4dfc-915c-80c711e27612",
+					"name": "titol",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "5bf8e53f-772a-4fe5-86ab-93000c16e90d",
+					"name": "num_cancons",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "fab5919a-1d6d-40b1-b31c-9efa692a1c1f",
+					"name": "date",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3473d27e-9f88-405a-9b01-f0da37a596f7",
+					"name": "status",
+					"datatype": "enum",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "A = Activa\nE= Esborrada",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "[\"A\",\"E\"]",
+					"validate": ""
+				},
+				{
+					"id": "cdfb9492-cafb-40d0-b82d-ed8648d69619",
+					"name": "cancons",
+					"datatype": "6562a2a7-fdaf-437d-be65-7b37cab56196",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [
+				"b3cc9726-a2ec-486b-ab9e-d2d3d40670ee"
+			],
+			"lines": [
+				"3de5a977-6d85-44f1-be41-be09b78b56b2",
+				"f760ff04-0f61-47eb-8900-2853fe3f5a23"
+			],
+			"keys": [
+				{
+					"id": "104afc52-0de0-439a-86b2-6097e6787c88",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"d9b9c2d3-085b-4a83-ab04-0029be9d201c": {
+			"id": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+			"visible": true,
+			"name": "artista",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "d552330b-eef5-4f3e-8f8d-7ff20fe464ae",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "08e43455-d88c-4fca-949c-ab4eca16b1ec",
+					"name": "albums",
+					"datatype": "2e1eb0fe-d773-42dc-abce-41b261368119",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3e87ef5b-1cc1-4b8b-accb-4c8f1aef24d1",
+					"name": "nom",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "24a85390-9c74-4677-a153-624036e25991",
+					"name": "ruta_imatge",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "06ffeb1a-4275-4e42-a6f7-114abd52c12a",
+					"name": "artista_relacionat",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "artista",
+					"list": true
+				}
+			],
+			"relations": [
+				"c62a0403-7867-411a-a6b8-80a90dfaafbd",
+				"4ba7b655-3df8-4bbf-8597-3a329bb0b906"
+			],
+			"lines": [
+				"02ff1312-b386-483b-9e2b-b2d2d310bbbd",
+				"215a6b02-954e-419e-9524-6f8bd5659727"
+			],
+			"keys": [
+				{
+					"id": "e694daf4-4f4e-4c24-b15a-6905b6f631d5",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "4cdb9ba0-b472-4ea7-ae7b-47e5f0aebdbf",
+							"colid": "d552330b-eef5-4f3e-8f8d-7ff20fe464ae"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": ""
+		},
+		"2e1eb0fe-d773-42dc-abce-41b261368119": {
+			"id": "2e1eb0fe-d773-42dc-abce-41b261368119",
+			"visible": true,
+			"name": "album",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "56d80f38-ea7f-4ae3-9d1c-1d1fb858439f",
+					"name": "canco",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "canco",
+					"list": true
+				},
+				{
+					"id": "fc356c5e-7c3a-4beb-81c9-aea2b3daadf9",
+					"name": "titol",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "45c8bf1d-45b6-4eb9-9159-2d1bc75e7e0b",
+					"name": "data_publicacio",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [
+				"7e062185-7d0d-4ccd-aa4d-d73483fbc439"
+			],
+			"lines": [
+				"56dd753b-1ac0-467c-aeda-bc1cd1008b4a",
+				"02ff1312-b386-483b-9e2b-b2d2d310bbbd"
+			],
+			"keys": [
+				{
+					"id": "ff11676d-21a0-43bd-b551-465ccc705e7a",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"6562a2a7-fdaf-437d-be65-7b37cab56196": {
+			"id": "6562a2a7-fdaf-437d-be65-7b37cab56196",
+			"visible": true,
+			"name": "canco_afegida_playlist",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "ab9d06bf-7db9-4d0d-8acb-b65c560b61db",
+					"name": "canco",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "canco"
+				},
+				{
+					"id": "62634cb1-d06e-47d1-a114-912c7221fe05",
+					"name": "user_afegeix",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "user"
+				},
+				{
+					"id": "1f328b6e-98df-4e72-873b-67cc1da16894",
+					"name": "data_afegida",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [
+				"79abdf4f-a059-4e3e-94d6-2eb9efc93299",
+				"18c1ce01-a6e0-45e4-b54b-a051ad226bcb"
+			],
+			"lines": [
+				"3de5a977-6d85-44f1-be41-be09b78b56b2"
+			],
+			"keys": [
+				{
+					"id": "13eebaff-ee4c-43a4-aa2e-153e2419821d",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"271026e8-682e-4546-8428-9c24563f5792": {
+			"id": "271026e8-682e-4546-8428-9c24563f5792",
+			"visible": true,
+			"name": "SeguimientosYplaylist",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "cf417b11-f3d0-46f5-a34a-6e6b7bba2666",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "e489a048-fd22-4d32-8ccc-78cdcf6ab79a",
+					"name": "artista",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "artista",
+					"list": true
+				},
+				{
+					"id": "6a5b0eb6-fb78-4f0e-abc2-505cbb82d68d",
+					"name": "canco",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"fk": true,
+					"ref": "canco"
+				},
+				{
+					"id": "971ef7bb-25a1-4543-83f6-cecadf2e845a",
+					"name": "album",
+					"datatype": "2e1eb0fe-d773-42dc-abce-41b261368119",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "436c6369-c4c7-452c-93f9-b7216ec6e5ad",
+					"name": "playlist",
+					"datatype": "0cd4bbc1-a953-4f32-82bb-5fa2145e3b05",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [
+				"23917490-8205-4f17-bcb0-6e9f718c5c90",
+				"4ba7b655-3df8-4bbf-8597-3a329bb0b906",
+				"56a778ff-e67d-4ef4-9d99-b321ba224cfe"
+			],
+			"lines": [
+				"56dd753b-1ac0-467c-aeda-bc1cd1008b4a",
+				"150e85a9-bbe3-48bc-b663-9017a93fe110",
+				"f760ff04-0f61-47eb-8900-2853fe3f5a23"
+			],
+			"keys": [
+				{
+					"id": "09761945-41b1-487a-bb13-30004b145d5b",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "85c12689-84c8-43c4-905f-4c2baee8f8e1",
+							"colid": "cf417b11-f3d0-46f5-a34a-6e6b7bba2666"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"internalColumnIdRef": "",
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		}
+	},
+	"relations": {
+		"b3cc9726-a2ec-486b-ab9e-d2d3d40670ee": {
+			"id": "b3cc9726-a2ec-486b-ab9e-d2d3d40670ee",
+			"visible": true,
+			"name": "user_playlist",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "d8711cdc-4ee8-4598-8b42-499808bf166e",
+			"parent": "c16ff730-e243-4ce4-978f-1214dcbbeffe",
+			"child": "0cd4bbc1-a953-4f32-82bb-5fa2145e3b05",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "f1e92691-873c-4e68-84fc-02ba6df681ef",
+					"parentcol": "4d6d7ed9-6bee-43fa-b304-0ea976d9ae63",
+					"childcol": "f19b4b03-bccd-44a3-a8f3-c62247e12767"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"7e062185-7d0d-4ccd-aa4d-d73483fbc439": {
+			"id": "7e062185-7d0d-4ccd-aa4d-d73483fbc439",
+			"visible": true,
+			"name": "canco_album",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "c9fefc81-8994-4b86-adcd-b09710cb1cff",
+			"parent": "81b5b6ed-d181-4e37-b97a-090e8fea3550",
+			"child": "2e1eb0fe-d773-42dc-abce-41b261368119",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "many",
+			"c_ch": "one",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "f68aac82-33f9-48c4-ad49-e54132c34fe4",
+					"parentcol": "702fa0df-8ee3-4f0a-b759-3fce9ac98527",
+					"childcol": "56d80f38-ea7f-4ae3-9d1c-1d1fb858439f"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"79abdf4f-a059-4e3e-94d6-2eb9efc93299": {
+			"id": "79abdf4f-a059-4e3e-94d6-2eb9efc93299",
+			"visible": true,
+			"name": "canco_canco_afegida_playlist",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "c9fefc81-8994-4b86-adcd-b09710cb1cff",
+			"parent": "81b5b6ed-d181-4e37-b97a-090e8fea3550",
+			"child": "6562a2a7-fdaf-437d-be65-7b37cab56196",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "af240b46-67fe-4eb2-b3d7-657f1ad7583d",
+					"parentcol": "702fa0df-8ee3-4f0a-b759-3fce9ac98527",
+					"childcol": "ab9d06bf-7db9-4d0d-8acb-b65c560b61db"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"18c1ce01-a6e0-45e4-b54b-a051ad226bcb": {
+			"id": "18c1ce01-a6e0-45e4-b54b-a051ad226bcb",
+			"visible": true,
+			"name": "user_canco_afegida_playlist",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "d8711cdc-4ee8-4598-8b42-499808bf166e",
+			"parent": "c16ff730-e243-4ce4-978f-1214dcbbeffe",
+			"child": "6562a2a7-fdaf-437d-be65-7b37cab56196",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "5fc5260f-bcf2-4c4d-a724-1dae9bf93424",
+					"parentcol": "4d6d7ed9-6bee-43fa-b304-0ea976d9ae63",
+					"childcol": "62634cb1-d06e-47d1-a114-912c7221fe05"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"23917490-8205-4f17-bcb0-6e9f718c5c90": {
+			"id": "23917490-8205-4f17-bcb0-6e9f718c5c90",
+			"visible": true,
+			"name": "Seguimientos_user",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "09761945-41b1-487a-bb13-30004b145d5b",
+			"parent": "271026e8-682e-4546-8428-9c24563f5792",
+			"child": "c16ff730-e243-4ce4-978f-1214dcbbeffe",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "one",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "73043551-5ee5-4111-93e6-593d393468ae",
+					"parentcol": "cf417b11-f3d0-46f5-a34a-6e6b7bba2666",
+					"childcol": "44080862-b5df-48e5-8924-23a01fe74476"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"56a778ff-e67d-4ef4-9d99-b321ba224cfe": {
+			"id": "56a778ff-e67d-4ef4-9d99-b321ba224cfe",
+			"visible": true,
+			"name": "canco_Seguimientos",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "c9fefc81-8994-4b86-adcd-b09710cb1cff",
+			"parent": "81b5b6ed-d181-4e37-b97a-090e8fea3550",
+			"child": "271026e8-682e-4546-8428-9c24563f5792",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "84f35112-68c7-45d4-870d-14319f57c693",
+					"parentcol": "702fa0df-8ee3-4f0a-b759-3fce9ac98527",
+					"childcol": "6a5b0eb6-fb78-4f0e-abc2-505cbb82d68d"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"c62a0403-7867-411a-a6b8-80a90dfaafbd": {
+			"id": "c62a0403-7867-411a-a6b8-80a90dfaafbd",
+			"visible": true,
+			"name": "artista_artista",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "e694daf4-4f4e-4c24-b15a-6905b6f631d5",
+			"parent": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+			"child": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "many",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "a8c9f33e-bb0e-4ed2-af31-85e35af41bf0",
+					"parentcol": "d552330b-eef5-4f3e-8f8d-7ff20fe464ae",
+					"childcol": "06ffeb1a-4275-4e42-a6f7-114abd52c12a"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"4ba7b655-3df8-4bbf-8597-3a329bb0b906": {
+			"id": "4ba7b655-3df8-4bbf-8597-3a329bb0b906",
+			"visible": true,
+			"name": "artista_Seguimientos",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "e694daf4-4f4e-4c24-b15a-6905b6f631d5",
+			"parent": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+			"child": "271026e8-682e-4546-8428-9c24563f5792",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "0d788383-a257-4fab-bbee-052bc134bb58",
+					"parentcol": "d552330b-eef5-4f3e-8f8d-7ff20fe464ae",
+					"childcol": "e489a048-fd22-4d32-8ccc-78cdcf6ab79a"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"notes": {
+		"f2259505-628b-43dc-8079-629d71c7ac13": {
+			"id": "f2259505-628b-43dc-8079-629d71c7ac13",
+			"visible": true,
+			"name": "note1",
+			"desc": "<p>Faig la colecció seguimientos per controlar un possible</p><p>creixement descontrolat de la coleccio user.</p>",
+			"lines": [
+				"150e85a9-bbe3-48bc-b663-9017a93fe110"
+			]
+		},
+		"25d796aa-1318-4ae9-a9b4-b43e09abffb8": {
+			"id": "25d796aa-1318-4ae9-a9b4-b43e09abffb8",
+			"visible": true,
+			"name": "note2",
+			"desc": "<p>Dins del document pagament incorporo les dades</p><p>(targeta,paypal) tot i tenirles al document suscripcio.</p><p>Per si l'usuari canvia el seu metode habitual de pagament,</p><p>tenir les dades en el moment del pagament.</p>",
+			"lines": [
+				"29fc270f-6cc8-496b-8831-78fcc719784d"
+			]
+		},
+		"f87d94d5-ea8f-4139-9d6e-d48181af8411": {
+			"id": "f87d94d5-ea8f-4139-9d6e-d48181af8411",
+			"visible": true,
+			"name": "note3",
+			"desc": "<p>Faig coleccio cançó pq l'inclouen</p><p>altres documents amb freqüencia.</p>",
+			"lines": [
+				"1de799ad-37f5-48b6-9623-46e6627332b9"
+			]
+		},
+		"c1049284-5d53-401b-964f-e533c3d0cea6": {
+			"id": "c1049284-5d53-401b-964f-e533c3d0cea6",
+			"visible": true,
+			"name": "note4",
+			"desc": "<p>Faig col·lecció artista suposant que probablement</p><p>hi haurà molts artitstes relacionats. i guardaria cançons albums...</p>",
+			"lines": [
+				"215a6b02-954e-419e-9524-6f8bd5659727"
+			]
+		}
+	},
+	"lines": {
+		"56a608c9-3475-4526-9287-f2f5e12ac826": {
+			"id": "56a608c9-3475-4526-9287-f2f5e12ac826",
+			"visible": true,
+			"name": "user_premium-user",
+			"desc": "",
+			"style": "solid",
+			"parent": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+			"child": "c16ff730-e243-4ce4-978f-1214dcbbeffe",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"abcd7368-7553-4418-ac22-24d86a655070": {
+			"id": "abcd7368-7553-4418-ac22-24d86a655070",
+			"visible": true,
+			"name": "paypal-user_premium",
+			"desc": "",
+			"style": "solid",
+			"parent": "4d2f2d62-469e-4641-be5b-0000555e81e3",
+			"child": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"24c6538e-0ee8-4295-a2a7-1942d6230762": {
+			"id": "24c6538e-0ee8-4295-a2a7-1942d6230762",
+			"visible": true,
+			"name": "targeta-user_premium",
+			"desc": "",
+			"style": "solid",
+			"parent": "ef861fbb-29b3-4e92-a091-a0f0bf2270a7",
+			"child": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"6105291e-097d-4d5b-9d11-ee6eb941a6f1": {
+			"id": "6105291e-097d-4d5b-9d11-ee6eb941a6f1",
+			"visible": true,
+			"name": "pagament-suscripcio",
+			"desc": "",
+			"style": "solid",
+			"parent": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+			"child": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"3de5a977-6d85-44f1-be41-be09b78b56b2": {
+			"id": "3de5a977-6d85-44f1-be41-be09b78b56b2",
+			"visible": true,
+			"name": "canco_afegida_playlist-playlist",
+			"desc": "",
+			"style": "solid",
+			"parent": "6562a2a7-fdaf-437d-be65-7b37cab56196",
+			"child": "0cd4bbc1-a953-4f32-82bb-5fa2145e3b05",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"56dd753b-1ac0-467c-aeda-bc1cd1008b4a": {
+			"id": "56dd753b-1ac0-467c-aeda-bc1cd1008b4a",
+			"visible": true,
+			"name": "album-Seguimientos",
+			"desc": "",
+			"style": "solid",
+			"parent": "2e1eb0fe-d773-42dc-abce-41b261368119",
+			"child": "271026e8-682e-4546-8428-9c24563f5792",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"150e85a9-bbe3-48bc-b663-9017a93fe110": {
+			"id": "150e85a9-bbe3-48bc-b663-9017a93fe110",
+			"visible": true,
+			"name": "note1-Seguimientos",
+			"desc": "",
+			"style": "solid",
+			"parent": "f2259505-628b-43dc-8079-629d71c7ac13",
+			"child": "271026e8-682e-4546-8428-9c24563f5792",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"29fc270f-6cc8-496b-8831-78fcc719784d": {
+			"id": "29fc270f-6cc8-496b-8831-78fcc719784d",
+			"visible": true,
+			"name": "note2-pagament",
+			"desc": "",
+			"style": "solid",
+			"parent": "25d796aa-1318-4ae9-a9b4-b43e09abffb8",
+			"child": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"1de799ad-37f5-48b6-9623-46e6627332b9": {
+			"id": "1de799ad-37f5-48b6-9623-46e6627332b9",
+			"visible": true,
+			"name": "note3-canco",
+			"desc": "",
+			"style": "solid",
+			"parent": "f87d94d5-ea8f-4139-9d6e-d48181af8411",
+			"child": "81b5b6ed-d181-4e37-b97a-090e8fea3550",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"02ff1312-b386-483b-9e2b-b2d2d310bbbd": {
+			"id": "02ff1312-b386-483b-9e2b-b2d2d310bbbd",
+			"visible": true,
+			"name": "album-artista",
+			"desc": "",
+			"style": "solid",
+			"parent": "2e1eb0fe-d773-42dc-abce-41b261368119",
+			"child": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"e14ac2ef-d09b-4155-b6df-6dcb5ac1460f": {
+			"id": "e14ac2ef-d09b-4155-b6df-6dcb5ac1460f",
+			"visible": true,
+			"name": "paypal-pagament",
+			"desc": "",
+			"style": "solid",
+			"parent": "4d2f2d62-469e-4641-be5b-0000555e81e3",
+			"child": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"d93eca77-0a63-406e-80b5-b7a70e7d8f38": {
+			"id": "d93eca77-0a63-406e-80b5-b7a70e7d8f38",
+			"visible": true,
+			"name": "targeta-pagament",
+			"desc": "",
+			"style": "solid",
+			"parent": "ef861fbb-29b3-4e92-a091-a0f0bf2270a7",
+			"child": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"215a6b02-954e-419e-9524-6f8bd5659727": {
+			"id": "215a6b02-954e-419e-9524-6f8bd5659727",
+			"visible": true,
+			"name": "note4-artista",
+			"desc": "",
+			"style": "solid",
+			"parent": "c1049284-5d53-401b-964f-e533c3d0cea6",
+			"child": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		},
+		"f760ff04-0f61-47eb-8900-2853fe3f5a23": {
+			"id": "f760ff04-0f61-47eb-8900-2853fe3f5a23",
+			"visible": true,
+			"name": "playlist-SeguimientosYplaylist",
+			"desc": "",
+			"style": "solid",
+			"parent": "0cd4bbc1-a953-4f32-82bb-5fa2145e3b05",
+			"child": "271026e8-682e-4546-8428-9c24563f5792",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		}
+	},
+	"model": {
+		"name": "spotify",
+		"id": "36db18f4-542b-4853-a9f7-8e927406cb28",
+		"activeDiagram": "48e7ef72-9a7e-4f9c-ad95-0ffaecb80e5e",
+		"desc": "",
+		"path": "",
+		"type": "MONGODB",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": false,
+		"storedin": {
+			"major": 4,
+			"minor": 6,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"stickyParentIsDisplayed": false,
+		"def_coltopk": true,
+		"def_validationLevel": "na",
+		"def_validationAction": "na",
+		"def_collation": "",
+		"def_others": "",
+		"writeFileParam": false,
+		"lastSaved": "Tue Jul 19 2022 20:32:19 GMT+0200 (hora de verano de Europa central)"
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"48e7ef72-9a7e-4f9c-ad95-0ffaecb80e5e": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "48e7ef72-9a7e-4f9c-ad95-0ffaecb80e5e",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"c16ff730-e243-4ce4-978f-1214dcbbeffe": {
+					"referencedItemId": "c16ff730-e243-4ce4-978f-1214dcbbeffe",
+					"x": 607,
+					"y": 30,
+					"gHeight": 549,
+					"gWidth": 320,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"81b5b6ed-d181-4e37-b97a-090e8fea3550": {
+					"referencedItemId": "81b5b6ed-d181-4e37-b97a-090e8fea3550",
+					"x": 636,
+					"y": 1262,
+					"gHeight": 99,
+					"gWidth": 230,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"8402ccb2-f7ea-4942-83e8-0e5c939ea522": {
+					"referencedItemId": "8402ccb2-f7ea-4942-83e8-0e5c939ea522",
+					"x": 271,
+					"y": 150,
+					"gHeight": 369,
+					"gWidth": 298,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"ef861fbb-29b3-4e92-a091-a0f0bf2270a7": {
+					"referencedItemId": "ef861fbb-29b3-4e92-a091-a0f0bf2270a7",
+					"x": 45,
+					"y": 159,
+					"gHeight": 81,
+					"gWidth": 185,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"4d2f2d62-469e-4641-be5b-0000555e81e3": {
+					"referencedItemId": "4d2f2d62-469e-4641-be5b-0000555e81e3",
+					"x": 72,
+					"y": 40,
+					"gHeight": 45,
+					"gWidth": 159,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"bc68ab4b-c142-44d7-8a6c-acd30aba566b": {
+					"referencedItemId": "bc68ab4b-c142-44d7-8a6c-acd30aba566b",
+					"x": 45,
+					"y": 315,
+					"gHeight": 189,
+					"gWidth": 207,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"0cd4bbc1-a953-4f32-82bb-5fa2145e3b05": {
+					"referencedItemId": "0cd4bbc1-a953-4f32-82bb-5fa2145e3b05",
+					"x": 774,
+					"y": 867,
+					"gHeight": 189,
+					"gWidth": 281,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"d9b9c2d3-085b-4a83-ab04-0029be9d201c": {
+					"referencedItemId": "d9b9c2d3-085b-4a83-ab04-0029be9d201c",
+					"x": 61,
+					"y": 700,
+					"gHeight": 171,
+					"gWidth": 248,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"2e1eb0fe-d773-42dc-abce-41b261368119": {
+					"referencedItemId": "2e1eb0fe-d773-42dc-abce-41b261368119",
+					"x": 487,
+					"y": 1132,
+					"gHeight": 81,
+					"gWidth": 214,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"6562a2a7-fdaf-437d-be65-7b37cab56196": {
+					"referencedItemId": "6562a2a7-fdaf-437d-be65-7b37cab56196",
+					"x": 795,
+					"y": 719,
+					"gHeight": 81,
+					"gWidth": 231,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"271026e8-682e-4546-8428-9c24563f5792": {
+					"referencedItemId": "271026e8-682e-4546-8428-9c24563f5792",
+					"x": 445,
+					"y": 668,
+					"gHeight": 333,
+					"gWidth": 303,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"f2259505-628b-43dc-8079-629d71c7ac13": {
+					"referencedItemId": "f2259505-628b-43dc-8079-629d71c7ac13",
+					"x": 426,
+					"y": 596,
+					"gHeight": 44,
+					"gWidth": 313,
+					"color": "#333",
+					"background": "#f9e79f",
+					"resized": false,
+					"autoExpand": true
+				},
+				"25d796aa-1318-4ae9-a9b4-b43e09abffb8": {
+					"referencedItemId": "25d796aa-1318-4ae9-a9b4-b43e09abffb8",
+					"x": 45,
+					"y": 536,
+					"gHeight": 72,
+					"gWidth": 333,
+					"color": "#333",
+					"background": "#f9e79f",
+					"resized": false,
+					"autoExpand": true
+				},
+				"f87d94d5-ea8f-4139-9d6e-d48181af8411": {
+					"referencedItemId": "f87d94d5-ea8f-4139-9d6e-d48181af8411",
+					"x": 740,
+					"y": 1146,
+					"gHeight": 44,
+					"gWidth": 200,
+					"color": "#333",
+					"background": "#f9e79f",
+					"resized": false,
+					"autoExpand": true
+				},
+				"c1049284-5d53-401b-964f-e533c3d0cea6": {
+					"referencedItemId": "c1049284-5d53-401b-964f-e533c3d0cea6",
+					"x": 45,
+					"y": 621,
+					"gHeight": 44,
+					"gWidth": 372,
+					"color": "#333",
+					"background": "#f9e79f",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd"
+		}
+	},
+	"order": []
+}

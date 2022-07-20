@@ -1,0 +1,8 @@
+
+db.createCollection( 'user', {validator: {$jsonSchema: {bsonType: 'object',title:'user',required: [         'Seguimientos'],properties: {email: {bsonType: 'string'},password: {bsonType: 'string'},nickname: {bsonType: 'string'},birth_date: {bsonType: 'date'},sexe: {bsonType: 'string'},pais: {bsonType: 'string'},codi_postal: {bsonType: 'string'},premium: {bsonType: 'object',
+title:'suscripcio',required: [         'data_renovacio',          'data_inici',          'modo_pago_predeterminado'],properties: {data_renovacio: {bsonType: 'date'},data_inici: {bsonType: 'date'},dades_targeta: {bsonType: 'object',
+title:'targeta',required: [         'num',          'caducitat',          'codi'],properties: {num: {bsonType: 'string'},caducitat: {bsonType: 'string'},codi: {bsonType: 'string'}}},dades_paypal: {bsonType: 'object',
+title:'paypal',required: [         'user'],properties: {user: {bsonType: 'string'}}},modo_pago_predeterminado: {enum: ["P","T"]},pagament: {bsonType: 'array',items: {
+title:'pagament',properties: {total: {bsonType: 'string'},data: {bsonType: 'timestamp'},modo_pago: {enum: },paypal: {bsonType: 'object',
+title:'paypal',required: [         'user'],properties: {user: {bsonType: 'string'}}},targeta: {bsonType: 'object',
+title:'targeta',required: [         'num',          'caducitat',          'codi'],properties: {num: {bsonType: 'string'},caducitat: {bsonType: 'string'},codi: {bsonType: 'string'}}}}}}}},Seguimientos: {bsonType: 'objectId'}}         }      }});  

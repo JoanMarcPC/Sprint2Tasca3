@@ -1,0 +1,4 @@
+
+db.createCollection( 'proveidor', {validator: {$jsonSchema: {bsonType: 'object',title:'proveidor',required: [         'nom',          'telefon',          'nif'],properties: {nom: {bsonType: 'string'},telefon: {bsonType: 'string'},fax: {bsonType: 'string'},nif: {bsonType: 'string'},adress: {bsonType: 'object',
+title:'Adress',required: [         'carrer',          'ciutat',          'codi_postal',          'pais'],properties: {carrer: {bsonType: 'string'},num: {bsonType: 'int'},pis: {bsonType: 'int'},porta: {bsonType: 'int'},ciutat: {bsonType: 'string'},codi_postal: {bsonType: 'string'},pais: {bsonType: 'string'}}},marques: {bsonType: 'array',items: {
+title:'marca',required: [         'ulleres'],properties: {nom: {bsonType: 'string'},ulleres: {bsonType: 'array',items: {bsonType: 'objectId'}}}}}}         }      }});  

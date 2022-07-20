@@ -1,0 +1,2 @@
+
+db.createCollection( 'canco', {validator: {$jsonSchema: {bsonType: 'object',title:'canco',properties: {titol: {bsonType: 'string'},durada: {bsonType: 'double'},num_reproduccions: {bsonType: 'int'}}         }      }});  

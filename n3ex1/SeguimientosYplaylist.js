@@ -1,0 +1,5 @@
+
+db.createCollection( 'SeguimientosYplaylist', {validator: {$jsonSchema: {bsonType: 'object',title:'SeguimientosYplaylist',required: [         'artista',          'canco'],properties: {artista: {bsonType: 'array',items: {bsonType: 'objectId'}},canco: {bsonType: 'array',items: {bsonType: 'objectId'}},album: {bsonType: 'array',items: {
+title:'album',required: [         'canco'],properties: {canco: {bsonType: 'array',items: {bsonType: 'objectId'}},titol: {bsonType: 'string'},data_publicacio: {bsonType: 'date'}}}},playlist: {bsonType: 'array',items: {
+title:'playlist',required: [         'user_creador'],properties: {user_creador: {bsonType: 'objectId'},titol: {bsonType: 'string'},num_cancons: {bsonType: 'string'},date: {bsonType: 'timestamp'},status: {enum: ["A","E"]},cancons: {bsonType: 'array',items: {
+title:'canco_afegida_playlist',required: [         'canco',          'user_afegeix'],properties: {canco: {bsonType: 'objectId'},user_afegeix: {bsonType: 'objectId'},data_afegida: {bsonType: 'timestamp'}}}}}}}}         }      }});  
